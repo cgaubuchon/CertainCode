@@ -42,7 +42,7 @@ a {
 		transition: 0.3s;
 }
 a:hover {
-		color: #2eb267;
+		color: #1CB2B2;
 		text-decoration:none;
 }
 
@@ -71,6 +71,7 @@ p {
 		top: 0;
 		width: 100%;
 		z-index: 9999;
+		display: none;
 }
 #loaderInner {
 		background:#ffffff url(../images/load.gif) center center no-repeat;
@@ -154,7 +155,7 @@ p {
 	text-decoration: none;
 }
 .menu-nav li.active a {
-	border-bottom: 1px solid #2eb267;
+	border-bottom: 1px solid #1CB2B2;
 	color: #ffffff;
 }
 
@@ -195,7 +196,7 @@ p {
 		width: 75px;
 		height: 2px;
 		margin: 0 auto;
-		background: #2eb267;
+		background: #1CB2B2;
 }
 .separatorlinewhite {
 		width: 100px;
@@ -258,7 +259,7 @@ p {
 		letter-spacing: 5px;
 		color: #ffffff;
 		padding: 15px;
-		background: #2eb267;
+		background: #1CB2B2;
 		text-transform: uppercase;
 }
 a.scroll-down {
@@ -267,7 +268,7 @@ a.scroll-down {
 }
 a.scroll-down div {
 	font-size: 30px;
-	color: #2eb267;
+	color: #1CB2B2;
 }
 
 /* ====04. SECTION ABOUT ==== */
@@ -291,7 +292,7 @@ a.scroll-down div {
 		padding-bottom: 30px;
 }
 .textBlue {
-	color: #2eb267;
+	color: #1CB2B2;
 }
 .aboutProfile {
 	text-align: right;
@@ -311,7 +312,7 @@ a.scroll-down div {
 	letter-spacing: 3px;
 }
 .aboutProfile h4 {
-	color: #2eb267;
+	color: #1CB2B2;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	font-size: 11px;
@@ -346,9 +347,9 @@ a.scroll-down div {
 }
 .resumeEe .icon {
 	font-size: 25px;
-	background: #2eb267;
+	background: #1CB2B2;
 	color: #ffffff;
-	padding: 5px 5px 0 5px;
+	padding: 5px 9px 0 9px;
 }
 .resumeEe h3 {
 	text-transform: uppercase;
@@ -374,13 +375,13 @@ a.scroll-down div {
 .resumeEd p {padding-left: 25px;}
 .resumeEd h3 {text-align: right;}
 .resumeEd .icon {margin-left: 5px;float: right;}
-.resumeEd {border-right: 1px solid #2eb267;}
+.resumeEd {border-right: 1px solid #1CB2B2;}
 
 .resumeEm {text-align: left;}
 .resumeEm p {padding-right: 25px;}
 .resumeEm h3 {text-align: left;}
 .resumeEm .icon {margin-right: 5px;float: left;}
-.resumeEm {border-left: 1px solid #2eb267;}
+.resumeEm {border-left: 1px solid #1CB2B2;}
 
 .resumeList {
 	-webkit-padding-start: 0px;
@@ -394,14 +395,14 @@ a.scroll-down div {
 	margin-bottom: 25px;
 }
 .resumePeriod {
-	background: #2eb267;
+	background: #1CB2B2;
 	color: #fff;
 	padding: 2px 4px;
 	font-size: 11px;
 	margin: 0 10px;
 }
 .resumeName {
-	color: #2eb267;
+	color: #1CB2B2;
 	font-size: 14px;
 	text-transform: lowercase;
 }
@@ -468,11 +469,11 @@ a.scroll-down div {
 	-o-transition: all 0.2s linear;
 }
 .capPreview {
-	color: #2eb267;
+	color: #1CB2B2;
 	text-transform: uppercase;
 	font-size: 10px;
 	letter-spacing: 3px;
-	border: 2px solid #2eb267;
+	border: 2px solid #1CB2B2;
 	padding: 5px;
 	margin-top: 10px;
 }
@@ -505,7 +506,7 @@ a.scroll-down div {
 }
 .current-filter {
 		color: #ffffff!important;
-		border-bottom: 1px solid #2eb267;
+		border-bottom: 1px solid #1CB2B2;
 }
 
 
@@ -519,7 +520,7 @@ a.scroll-down div {
 	text-align: center;
 }
 .servicesBox .icon{
-	color: #2eb267;
+	color: #1CB2B2;
 	font-size: 50px;
 	padding-bottom: 10px;
 }
@@ -538,7 +539,7 @@ a.scroll-down div {
 	padding: 25px 15px 0 15px;
 }
 .servicesColor {
-	background: #2eb267;
+	background: #1CB2B2;
 	padding: 2px 4px;
 	color: #ffffff;
 	font-size: 12px;
@@ -618,7 +619,7 @@ a.scroll-down div {
 	padding-left: 5%;
 }
 .contactBox .icon {
-	color: #2eb267;
+	color: #1CB2B2;
 	font-size: 25px;
 }
 .contactBox {
@@ -658,7 +659,7 @@ input:focus, textarea:focus, select:focus {
 	transition: all 0.25s ease-in-out;
 	-webkit-transition: all 0.25s ease-in-out;
 	-moz-transition: all 0.25s ease-in-out;
-	border: 1px solid #2eb267;
+	border: 1px solid #1CB2B2;
 }
 
 input.submit {
@@ -668,7 +669,7 @@ input.submit {
 		background: transparent;
 		color: #ffffff;
 		padding: 16px;
-		background: #2eb267;
+		background: #1CB2B2;
 		margin: 20px 0;
 		-webkit-transition: all .2s ease-in-out;
 		-moz-transition: all .2s ease-in-out;
@@ -724,7 +725,7 @@ ul.errorMessages li {
 		font-size: 16px;
 		font-weight: 200;
 		text-align: left;
-		color: #2eb267;
+		color: #1CB2B2;
 		list-style: none;
 		line-height: 25px;
 	}
@@ -747,7 +748,7 @@ ul.errorMessages li {
 	padding: 10px 14px;
 }
 .button-color {
-	background: #2eb267;
+	background: #1CB2B2;
 	text-transform: uppercase;
 	font-size: 11px;
 }
@@ -788,7 +789,7 @@ ul.errorMessages li {
 	line-height: 20px;
 	color: #fff;
 	text-align: center;
-	background-color: #2eb267;
+	background-color: #1CB2B2;
 	-webkit-transition: width .6s ease;
 	transition: width .6s ease;
 }

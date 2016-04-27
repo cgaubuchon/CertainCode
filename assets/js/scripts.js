@@ -48,17 +48,6 @@
 
 			});
 
-
-
-
-//------- SITE LOADER ---//
-
-jQuery(window).load(function() {
-		jQuery("#loaderInner").fadeOut();
-		jQuery("#loader").delay(400).fadeOut("slow");
-
-
-});
 //------- PORTOFOLIO GRID ---//
 	$(function(){
 		"use strict";
